@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mike Binder - Comedian, Writer, Actor</title>
   <style>
     body {
@@ -12,6 +11,9 @@
       background-color: #f8f8f8;
       color: #333;
     }
+    header {
+      padding: 0;
+    }
     header img {
       width: 100%;
       height: auto;
@@ -19,27 +21,25 @@
     }
     nav {
       text-align: center;
-      background-color: #000;
-      padding: 1rem 0;
+      margin-top: 1rem;
+      flex-wrap: wrap;
     }
     nav a {
       margin: 0 1rem;
       text-decoration: none;
-      color: white;
-      font-weight: bold;
+      color: black !important;
     }
     section {
       padding: 2rem;
       max-width: 800px;
       margin: auto;
-      background-color: white;
-      margin-bottom: 2rem;
     }
     .video-container {
       position: relative;
       padding-bottom: 56.25%;
       height: 0;
       overflow: hidden;
+      margin-bottom: 2rem;
     }
     .video-container iframe {
       position: absolute;
@@ -48,20 +48,30 @@
       width: 100%;
       height: 100%;
     }
-    img.blog-image {
-      width: 100%;
-      margin: 1rem 0;
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    @media screen and (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 0.5rem 0;
+      }
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="banner-final.png" alt="Mike Binder Banner"/>
+    <img src="banner-final.png" alt="Mike Binder Banner" />
   </header>
+
   <nav>
     <a href="#about">About</a>
     <a href="#videos">Videos</a>
-    <a href="#blog">Mike's Blog</a>
+    <a href="https://standupworld.substack.com/" target="_blank">Mike's Substack</a>
     <a href="https://standupworld.com" target="_blank">Stand Up World</a>
   </nav>
 
@@ -77,22 +87,14 @@
     </div>
   </section>
 
-  <section id="blog">
-    <h2>Do You Want to Know Who the Next Nate Bargatze Is?</h2>
-    <p><em>Ask Nate Bargatze.</em></p>
-    <img src="aaron-weber-final.png" alt="Aaron Weber Signature Dish" class="blog-image"/>
-    <p>If you want to know who the next breakout clean comic with timing so tight it could slice deli meat is… ask the guy who already <em>is</em> that. Because Nate Bargatze, for all the country boy humility and "aw shucks" charm, has a real eye for talent. The guy knows comedy. Not just how to <em>do</em> it — how to spot it.</p>
-    <p>And he’s spotted it in Aaron Weber.</p>
-    <p>If you’re not already watching Aaron Weber, pause whatever you’re doing — including reading this, I’ll allow it — and hit play on his new special, <em>Signature Dish</em>, streaming now on YouTube. It's the first full-length special under the <em>Nateland</em> banner, the comedy house Nate's quietly been building while nobody was looking. And Aaron’s the first guy through the gate. That tells you everything you need to know.</p>
-    <p>Except it doesn’t. So let’s keep going.</p>
-    <p>It was a Nashville night. I was at Zanies — where else? — and Aaron was on the show. I didn’t know him. I wasn’t expecting anything. That’s the best way to meet a new comic: zero hype, zero pressure, just lights up and let's see what happens.</p>
-    <p>What happened was… he killed. Not in a flashy, look-at-me kind of way. No gymnastics. No pyrotechnics. He killed with writing. With poise. With what I can only describe as this cool, old-school, country-store confidence. Like he was standing in front of a cracker barrel, telling you a story, and somehow halfway through you realize your sides hurt from laughing.</p>
-    <p>I’ve met a lot of comics. A lot of funny people. But there’s a difference between funny people and funny performers. Aaron’s both. And beyond that, he’s <strong>already a pro</strong>. He’s doing the job like someone who’s been at it for twenty years, but with the energy and freshness of someone who still <em>wants</em> it.</p>
-    <p>If you know Nate’s podcast, <em>Nateland</em>, you already know Aaron. He’s the third guy at the table. The one who looks like he either runs a successful youth ministry or owns a small chain of hunting gear shops. He’s got the beard, the warmth, and the straight-faced delivery of a guy who could read your high school lunch menu and make it hilarious.</p>
-    <p>But stand-up wise? He’s a throwback — in the best possible way.</p>
-    <p>There’s a sincerity to Aaron’s act. A friendliness. He’s not trying to be edgy. He’s not pushing buttons. He’s just talking. And yet… he’s destroying. Why? Because the material is rock solid. The structure is there. He’s doing comedy the way it’s supposed to be done: from the ground up.</p>
-    <p>Aaron’s new special, <em>Signature Dish</em>, is thirty minutes of tightly woven, beautifully delivered material that feels both old-school and totally fresh. It’s polished but loose. Personal but universal. Clean but clever.</p>
-    <p><a href="https://www.youtube.com/watch?v=dKMGvlSxoY8" target="_blank">Watch “Signature Dish” on YouTube</a></p>
-  </section>
+  <footer>
+    <p>Follow Mike:</p>
+    <p>
+      <a href="https://www.instagram.com/themikebinder" style="color: white;">Instagram</a> |
+      <a href="https://twitter.com/mikebinderjokes" style="color: white;">Twitter</a> |
+      <a href="https://youtube.com/ofcMikeBinder" style="color: white;">YouTube</a>
+    </p>
+    <p>&copy; 2025 Mike Binder. All rights reserved.</p>
+  </footer>
 </body>
 </html>
