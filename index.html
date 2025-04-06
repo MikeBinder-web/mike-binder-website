@@ -11,14 +11,19 @@
       background-color: #f8f8f8;
       color: #333;
     }
+    header {
+      padding: 0;
+    }
     header img {
       width: 100%;
       height: auto;
       display: block;
+      border-radius: 0;
     }
     nav {
       text-align: center;
       margin-top: 1rem;
+      flex-wrap: wrap;
     }
     nav a {
       margin: 0 1rem;
@@ -58,7 +63,7 @@
 </head>
 <body>
   <header>
-    <img src="banner-final.png" alt="Mike Binder Banner" />
+    <img src="banner-final.png" alt="Mike Binder Banner">
   </header>
   <nav>
     <a href="#about">About</a>
@@ -73,11 +78,11 @@
   </section>
 
   <section id="videos">
-    <h2>Watch Mike</h2>
-    <div class="video-container">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/kb-7mUkK5uY?si=wjIUc9oiPjzQTLZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-  </section>
+  <h2>Watch Mike</h2>
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kb-7mUkK5uY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+</section>
 
   <footer>
     <p>Follow Mike:</p>
