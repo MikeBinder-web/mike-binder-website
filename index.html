@@ -5,24 +5,75 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mike Binder - Comedian, Writer, Actor</title>
   <style>
-    body { font-family: Arial, sans-serif; background: #fff; color: #333; margin: 0; padding: 0; }
-    header img { width: 100%; height: auto; display: block; }
-    section { max-width: 800px; margin: 2rem auto; padding: 1rem; }
-    img.blog-image { max-width: 100%; margin-top: 1rem; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8f8f8;
+      color: #333;
+      margin: 0;
+    }
+    header img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    nav {
+      background: #000;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+    }
+    img.blog-image {
+      max-width: 100%;
+      margin: 1rem 0;
+    }
+    footer {
+      background: #000;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
   </style>
 </head>
 <body>
   <header>
     <img src="Screenshot-Header-Banner.png" alt="Mike Binder Banner">
   </header>
-  <section>
-    <h1>Mike Binder - Comedian, Writer, Actor</h1>
-    <p>This is your live site — it's working! If you’re seeing this, you’ve successfully uploaded the right files and GitHub Pages is up and running. 🎉</p>
-    <h2>Latest Blog Post: Do You Want to Know Who the Next Nate Bargatze Is?</h2>
-    <p><strong>Ask Nate Bargatze.</strong></p>
-    <img src="aaron-weber-signature-dish.png" alt="Aaron Weber" class="blog-image">
-    <p>This is a preview of the full post. Aaron Weber is the real deal — you saw it here first.</p>
-    <p><a href="https://www.youtube.com/watch?v=dKMGvlSxoY8" target="_blank">Watch Aaron Weber's Signature Dish on YouTube</a></p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#videos">Videos</a>
+    <a href="#blog">Mike's Blog</a>
+    <a href="https://standupworld.com" target="_blank">Stand Up World</a>
+  </nav>
+  <section id="about">
+    <h1>About Mike</h1>
+    <p>Funny. Creative. Professional. From Detroit, started out at The Comedy Store. Mike Binder is a stand-up comedian, actor, and writer who’s obsessed with making people laugh and making movies that matter.</p>
   </section>
+  <section id="videos">
+    <h2>Watch Mike</h2>
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe src="https://www.youtube.com/embed/kb-7mUkK5uY" frameborder="0" allowfullscreen
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+  </section>
+  <section id="blog">
+    <h2>Do You Want to Know Who the Next Nate Bargatze Is?</h2>
+    <p><strong>Ask Nate Bargatze.</strong></p>
+    <img src="aaron-weber-signature-dish.png" alt="Aaron Weber Signature Dish" class="blog-image">
+    <p>Aaron Weber is a Nashville-based comic with timing so clean it cuts like sushi. I met him at Zanies one night, and he blew me away. And now? He’s the first comic featured under Nate Bargatze’s Nateland banner. That’s not luck — that’s talent.</p>
+    <p><a href="https://www.youtube.com/watch?v=dKMGvlSxoY8" target="_blank">Watch his special “Signature Dish” here</a></p>
+  </section>
+  <footer>
+    <p>&copy; 2025 Mike Binder. All rights reserved.</p>
+  </footer>
 </body>
 </html>
